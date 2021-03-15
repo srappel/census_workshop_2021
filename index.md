@@ -10,7 +10,7 @@ ____
 
 ### Presenter
 
-Stephen Appel <a href='https://github.com/srappel' target='_blank'><img src='https://uwm.edu/libraries/wp-content/uploads/sites/59/2018/12/appel.jpg' style='width:15px; padding:0; border:none !important;'></a>    
+Stephen Appel <a href='https://github.com/srappel' target='_blank'><img src='content/img/GitHub-Mark-custom.svg' style='width:15px; padding:0; border:none !important;'></a>    
 Geospatial Information Specialist  
 American Geographical Society Library
 University of Wisconsin-Milwaukee Libraries 
