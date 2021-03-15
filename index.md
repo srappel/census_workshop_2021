@@ -12,7 +12,7 @@ ____
 
 Stephen Appel <a href='https://github.com/srappel' target='_blank'><img src='content/img/GitHub-Mark-custom.svg' style='width:15px; padding:0; border:none !important;'></a>    
 Geospatial Information Specialist  
-American Geographical Society Library
+American Geographical Society Library <br>
 University of Wisconsin-Milwaukee Libraries 
 [srappel@uwm.edu](mailto:srappel@uwm.edu)  
 
