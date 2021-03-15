@@ -21,23 +21,30 @@ University of Wisconsin-Milwaukee Libraries
 - Set up an account at NHGIS.org
 {: .prereq}
 
-### Goal of this workshop
+### Goals of this workshop
 
-Our goal is to introduce you to how we use GitHub.com for creating and delivering GIS workshops online, so that you can consider using them in your own work. There will be a hands-on section where we will fork ("copy") an existing workshop repo to your own GitHub account, publish the repo with GitHub Pages, and to make some edits.
+- Learn about the relevant history of the Census and American Community Survey
 
-You may not feel totally comfortable using GitHub – this is okay. As with any skill, using Jekyll and GitHub Pages takes practice. In this workshop, we want you to understand and get familiar with some of the workflows and terminology so that you are equipped to experiment on your own.   
+- Experiment with data discovery and access using [NHGIS](https://www.nhgis.org)
+
+- Bring tabular and geospatial Census/ACS data into GIS
+
+- Discuss special considerations for GIS analysis with Census/ACS data
+
+- Get an update on the latest tools and trends
 
 ### Schedule
 
 | Time | Content
 | --- | ---
 | 0:00 | Introductions
-| 0:05 | [Land acknowledgement](content/land-acknowledgement)
-| 0:10 | [Demystifying GitHub](content/slides/waml_github20.html){:target="_blank"} (presentation)
-| 0:50 | Break
-| 1:00 | Forking the workshop template (hands on)
-| 1:10 | A look under the hood (hands on)
-| 1:20 | Create your first page (hands on)
+| 0:03 | [Land acknowledgement](content/land-acknowledgement)
+| 0:05 | Who are we? (Interactive Activity)
+| 0:15 | Census and ACS: Past and Present (Presentation)
+| 0:35 | A tutorial for the modern map-minded panther (Step-by-step)
+| 1:05 | Tools and Trends (Presentation)
+| 1:10 | Questions
+| 1:25 | Wrap-up (Discussion)
 
 
 _Actual schedule may vary depending on group needs_  
