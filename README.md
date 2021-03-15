@@ -4,7 +4,7 @@ This is the repository for the website used in the Census Data and Tools for GIS
 
 If you are a workshop participant who ended up here by mistake, please [go back to the workshop website](srappel.github.io/census_workshop_2021).
 
-This site is based off a template created during a workshop during WAML 2020.
+This website was created using a template. The template information is below:
 
 [This GitHub repository](https://github.com/ubc-lib-geo/gis-workshop-waml-template) holds a template for a Jekyll site hosted on GitHub pages. You can find the public facing side of the template [here](https://ubc-lib-geo.github.io/gis-workshop-waml-template/).
 
