@@ -32,7 +32,7 @@ University of Wisconsin-Milwaukee Libraries
 
 ### Goals of this workshop
 
-- Learn about the relevant history of the Census and American Community Survey
+- Learn about the relevant history of the [Census](https://en.wikipedia.org/wiki/United_States_Census) and [American Community Survey](https://en.wikipedia.org/wiki/American_Community_Survey)
 
 - Experiment with data discovery and access using [NHGIS](https://www.nhgis.org)
 
