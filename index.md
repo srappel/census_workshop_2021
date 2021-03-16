@@ -21,7 +21,7 @@ This workshop will provide an introduction to the US Census and American Communi
 
 ### Presenter
 
-![Photo of the presenter, Stephen Appel](https://uwm.edu/libraries/wp-content/uploads/sites/59/2018/12/appel.jpg)
+<img src='https://uwm.edu/libraries/wp-content/uploads/sites/59/2018/12/appel.jpg' width='250' alt='Photo of the presenter, Stephen Appel'>
 
 Stephen Appel <a href='https://github.com/srappel' target='_blank'><img src='content/img/GitHub-Mark-custom.svg' style='width:15px; padding:0; border:none !important;'></a>    
 Geospatial Information Specialist  
