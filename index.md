@@ -17,7 +17,9 @@ University of Wisconsin-Milwaukee Libraries
 [srappel@uwm.edu](mailto:srappel@uwm.edu)  
 
 - A computer with an internet connection
+
 - Desktop GIS Software (ArcGIS Pro recommended, ArcMap or QGIS okay for those with GIS experience)
+
 - Set up an account at NHGIS.org
 {: .prereq}
 
@@ -52,6 +54,4 @@ _Actual schedule may vary depending on group needs_
 
 ### Workshop Slides
 
-
-<iframe width="625" height="352" frameborder="0" marginheight="0" marginwidth="0" src="content/slides/waml_github20"></iframe>    
-*Click on the slides then press the F key for full screen*
+*Coming Soon*
