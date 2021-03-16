@@ -33,7 +33,9 @@ Step 3
 {: .label .label-step}
 ### Register for an account at NHGIS
 
-First, create an account on NHGIS.org at [this registration link](https://uma.pop.umn.edu/nhgis/user/new).**
+Create a profile on NHGIS.org at [this registration link](https://uma.pop.umn.edu/nhgis/user/new).**
+
+An account is required to download data from the NHGIS system.
 {: .step}
 
 ### Notes
