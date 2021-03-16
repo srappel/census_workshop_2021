@@ -11,7 +11,9 @@ Step 1
 {: .label .label-step}
 ## Basic Setup
 
-The workshop will be held in Zoom. A camera and microphone are not required, but are encouraged for participation and discussion. Please prepare to mute your microphone and unmute only when you would like to speak.
+The workshop will be held in Zoom.
+A camera and microphone are not required, but are encouraged for participation and discussion.
+Please prepare to mute your microphone and unmute only when you would like to speak.
 {: .step}
 
 It's strongly recommended to use two monitors or two devices, one to follow along and one to view the zoom webinar.
@@ -20,18 +22,21 @@ It's strongly recommended to use two monitors or two devices, one to follow alon
 
 Step 2
 {: .label .label-step}
-## Getting ArcGIS Pro*
+## Getting ArcGIS Pro
 
-UWM Students should [follow this link to the Student Software page](https://uwm.edu/software/student-software/) and find the installation instructions for ArcGIS Pro.
+UWM Students should [follow this link to the Student Software page](https://uwm.edu/software/student-software/)
+and find the installation instructions for ArcGIS Pro.
 {: .step}
 
-UWM Faculty or Staff should [follow this link to the Faculty/Staff Software page](https://uwm.edu/software/faculty-staff-software/) and find the installation instructions for ArcGIS Pro.
+UWM Faculty or Staff should [follow this link to the Faculty/Staff Software page](https://uwm.edu/software/faculty-staff-software/)
+and find the installation instructions for ArcGIS Pro.
 {: .step}
 
 Faculty and Staff can access ArcGIS Pro only on university-owned workstations under our site license with ESRI.
 {: .warn}
 
-Attendees without UWM credentials should consider a [free trial](https://www.esri.com/en-us/arcgis/products/arcgis-pro/trial) or using alternative software such as the free and open source [QGIS](https://www.qgis.org).
+Attendees without UWM credentials should consider a [free trial](https://www.esri.com/en-us/arcgis/products/arcgis-pro/trial)
+or using alternative software such as the free and open source [QGIS](https://www.qgis.org).
 {: .step}
 
 <details>
@@ -45,7 +50,7 @@ Step 3
 {: .label .label-step}
 ## Register for an account at NHGIS
 
-Create a profile on NHGIS.org at [this registration link](https://uma.pop.umn.edu/nhgis/user/new).**
+Create a profile on NHGIS.org at [this registration link](https://uma.pop.umn.edu/nhgis/user/new).
 {: .step}
 
 An account is required to download data from the NHGIS system.
