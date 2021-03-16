@@ -5,8 +5,6 @@ nav_order: 2
 ---
 # Land acknowledgement
 
-
-
 We acknowledge in Milwaukee that we are on traditional Potawatomi, Ho-Chunk and Menominee homeland along the southwest shores of Michigami, North America’s largest system of freshwater lakes, where the Milwaukee, Menominee and Kinnickinnic rivers meet and the people of Wisconsin’s sovereign Anishinaabe, Ho-Chunk, Menominee, Oneida and Mohican nations remain present.
 <iframe src="https://native-land.ca/api/embed/embed.html?maps=territories&position=43.07737233622221,-87.88059411025475" style="width:100%; height:300px; border:none;"></iframe>
 
