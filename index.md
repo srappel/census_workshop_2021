@@ -8,7 +8,20 @@ nav_order: 1
   
 ____
 
+This workshop will provide an introduction to the US Census and American Community Survey (ACS), discovery and access to data products, and using Census and ACS data in GIS. In addition to the prerequisites below, workshop participants should have at least a beginner level knowledge of GIS technology and be comfortable with downloading files, unzipping .zip archive files, and opening shapefiles in GIS software. If you are completely new to GIS, It is strongly recommended that you complete some self-paced training from a resource like LinkedIn Learning.
+
+- A computer with an internet connection, a second monitor or second device (laptop or tablet) is highly recommended.
+
+- Desktop GIS Software (ArcGIS Pro recommended, ArcMap or QGIS okay for those with GIS experience)
+
+- Set up an account at NHGIS.org
+{: .prereq}
+
+[Click here to go to the full setup instructions.](content/setup)
+
 ### Presenter
+
+![Photo of the presenter, Stephen Appel](https://uwm.edu/libraries/wp-content/uploads/sites/59/2018/12/appel.jpg)
 
 Stephen Appel <a href='https://github.com/srappel' target='_blank'><img src='content/img/GitHub-Mark-custom.svg' style='width:15px; padding:0; border:none !important;'></a>    
 Geospatial Information Specialist  
@@ -16,12 +29,6 @@ American Geographical Society Library <br>
 University of Wisconsin-Milwaukee Libraries 
 [srappel@uwm.edu](mailto:srappel@uwm.edu)  
 
-- A computer with an internet connection
-
-- Desktop GIS Software (ArcGIS Pro recommended, ArcMap or QGIS okay for those with GIS experience)
-
-- Set up an account at NHGIS.org
-{: .prereq}
 
 ### Goals of this workshop
 
