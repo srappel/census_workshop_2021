@@ -5,12 +5,23 @@ nav_order: 2
 ---
 # Land acknowledgement
 
-Before beginning the workshop, we'd like to acknowledge the indigenous lands where we are located.    
+
 
 We acknowledge in Milwaukee that we are on traditional Potawatomi, Ho-Chunk and Menominee homeland along the southwest shores of Michigami, North America’s largest system of freshwater lakes, where the Milwaukee, Menominee and Kinnickinnic rivers meet and the people of Wisconsin’s sovereign Anishinaabe, Ho-Chunk, Menominee, Oneida and Mohican nations remain present.
 <iframe src="https://native-land.ca/api/embed/embed.html?maps=territories&position=43.07737233622221,-87.88059411025475" style="width:100%; height:300px; border:none;"></iframe>
 
 If you are not in Milwaukee, take a moment to explore [native-land.ca](https://native-land.ca/) so that you can visualize the indigenous territories, languages, and treaties in your area.
+
+According to Shawna Johnston of UBC,
+
+> The concept of mapping has had a tremendous impact upon indigenous peoples for centuries. 
+> Since it was first developed, the indigenous ways of orienting themselves on their lands were redefined.
+> As soon as lines were drawn on maps by European hands, indigenous place names, which are intricately connected with indigenous history, stories, and teachings, were replaced with English names, erasing indigenous presence from the lands. 
+> Traditional homelands were divided and classified into different geographic features, properties and imperial nations states,
+> dividing and separating indigenous families.
+> Languages and cultural teachings were lost as children were forced to attend residential schools and learn western ways of knowing.
+
+[(source and more information)](https://native-land.ca/resources/teachers-guide/)
 
 It's important to address how this relates to our subject matter today. Below is some information from NCAI:
 
@@ -28,5 +39,3 @@ American Indians are an historically undercounted group in the Census:
 > more than double the undercount rate of the next closest population group.  
 
 [(source and more information)](https://www.ncai.org/policy-issues/economic-development-commerce/census)
-
-We feel it is especially important for those of us who work with spatial and geographic information to understand the diverse histories of the lands we find ourselves. We ask that as you participate in GIS Day, take a moment now and then to think about indigenous histories, territories, and knowledge systems in the context of of GIS, map-making, governance, and other topics that come up in sessions and discussions.
