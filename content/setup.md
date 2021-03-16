@@ -16,7 +16,7 @@ The workshop will be held in Zoom. A camera and microphone are not required, but
 
 It's strongly recommended to use two monitors or two devices, one to follow along and one to view the zoom webinar.
 {: .step}
-
+<br>
 
 Step 2
 {: .label .label-step}
@@ -39,7 +39,6 @@ Attendees without UWM credentials should consider a [free trial](https://www.esr
 <br>
 If you would prefer to use QGIS, ArcGIS Desktop, or any other GIS for this workshop you are more than welcome to. The tutorial is written for ArcGIS pro, but the tools used are somewhat ubiquitous. If you can perform functions like adding data, joins, and symbology, you should have no problems following along with some adjustment.
 </details>
-<br>
 <br>
 
 Step 3
