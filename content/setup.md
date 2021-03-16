@@ -56,8 +56,6 @@ An account is required to download data from the NHGIS system.
 <summary>Prefer not to make an NHGIS profile?</summary>
 <br>
 If you would prefer not to create an NHGIS account, but still want to follow along you will need download the sample data during the workshop.
-
-[Download Data](){: .btn .btn-gray }
 </details>
 
 Contact [Stephen Appel](srappel@uwm.edu) with questions about setup!
