@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Setup
-nav_order: 4
+nav_order: 3
 ---
 # Getting ArcGIS Pro (or ArcGIS Desktop)
 
