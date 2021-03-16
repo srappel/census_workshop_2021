@@ -12,7 +12,7 @@ We acknowledge in Milwaukee that we are on traditional Potawatomi, Ho-Chunk and 
 
 If you are not in Milwaukee, take a moment to explore [native-land.ca](https://native-land.ca/) so that you can visualize the indigenous territories, languages, and treaties in your area.
 
-According to Shawna Johnston of UBC,
+According to Shauna Johnson of UBC,
 
 > The concept of mapping has had a tremendous impact upon indigenous peoples for centuries. 
 > Since it was first developed, the indigenous ways of orienting themselves on their lands were redefined.
