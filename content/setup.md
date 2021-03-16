@@ -7,6 +7,12 @@ nav_order: 3
 
 Please complete this setup before the workshop.
 
+### Basic Setup
+
+The workshop will be held in Zoom. A camera and microphone are not required, but are encouraged for participation and discussion. Please prepare to mute your microphone and unmute only when you would like to speak.
+
+It's strongly recommended to use two monitors or two devices, one to follow along and one to view the zoom webinar.
+
 ### Register for an account at NHGIS
 
 First, create an account on NHGIS.org at [this registration link](https://uma.pop.umn.edu/nhgis/user/new).*
