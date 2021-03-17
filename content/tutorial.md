@@ -55,7 +55,7 @@ nav_order: 4.5
 
 <h2 id="filtering">Filtering Data</h2>
 
-<p>You should have already set up an NHGIS profile as part of the workshop setup, but if not, please [do so now](https://uma.pop.umn.edu/nhgis/user/new?return_url=https%3A%2F%2Fdata2.nhgis.org%2Fmain).</p>
+<p>You should have already set up an NHGIS profile as part of the workshop setup, but if not, please <a href="https://uma.pop.umn.edu/nhgis/user/new?return_url=https%3A%2F%2Fdata2.nhgis.org%2Fmain" target="_blank">do so now</a>.</p>
 
 <p>On the <a href="https://nhgis.org/" target="_blank">NHGIS homepage</a>, click the <strong>Browse and Select Data</strong> link on the left menu. Alternatively, you may click on the <strong>Get Data</strong> button on the homepage or the <strong>Select Data</strong> link on the top navigation menu. You will see a page similar to this:</p>
 
