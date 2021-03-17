@@ -50,40 +50,46 @@ nav_order: 4.5
 <p>Happy mapping!</p>
 
 <h2 id="video">Quick Video Introduction</h2>
-<p>Want a quick video introduction before getting started? Watch this video from NHGIS:</p>
+<p>Watch this quick (2:22) video providing an overview of the data extract process on NHGIS.</p>
 <iframe style="display:block; margin:1em auto" width="560" height="315" src="https://www.youtube.com/embed/P1znKKm8vX4" frameborder="0" allowfullscreen></iframe>
 
 <h2 id="filtering">Filtering Data</h2>
 
-<p>The first thing one must do is <a href="https://uma.pop.umn.edu/nhgis/user/new?return_url=https%3A%2F%2Fdata2.nhgis.org%2Fmain" target="_blank">create a Minnesota Population Center account</a>. The process is quick and painless. A permanent record of all extracts (data) you obtain will be tied to your account, allowing you to access or revise them later.</p>
+<p>You should have already set up an NHGIS profile as part of the workshop setup, but if not, please [do so now](https://uma.pop.umn.edu/nhgis/user/new?return_url=https%3A%2F%2Fdata2.nhgis.org%2Fmain).</p>
 
-<p>Now the fun part. On the <a href="https://nhgis.org/" target="_blank">NHGIS homepage</a>, click the <strong>Browse and Select Data</strong> link on the left menu. Alternatively, you may click on the <strong>Get Data</strong> button on the homepage or the <strong>Select Data</strong> link on the top navigation menu. You will see a page similar to this:</p>
+<p>On the <a href="https://nhgis.org/" target="_blank">NHGIS homepage</a>, click the <strong>Browse and Select Data</strong> link on the left menu. Alternatively, you may click on the <strong>Get Data</strong> button on the homepage or the <strong>Select Data</strong> link on the top navigation menu. You will see a page similar to this:</p>
 
-<p><img alt="Data Finder page" src="https://s3.amazonaws.com/libapps/accounts/112972/images/1-datafinder-new.png" /></p>
+<p><img alt="Data Finder page showing the available filters: Geographic Levels, Years, Topics, and Datasets." src="https://s3.amazonaws.com/libapps/accounts/112972/images/1-datafinder-new.png" /></p>
 
-<p>These filters will allow us to tell NHGIS what specific data we want.</p>
+<p>These filters will allow us to tell NHGIS what specific data we want to add to our cart.</p>
 
 <p>Select <strong>Geographic Levels</strong> to specify your enumeration unit. In our example, we want to obtain data on a Census Tract level.</p>
 
-<p><img alt="Census Tract option" src="https://s3.amazonaws.com/libapps/accounts/112972/images/2-geoglevel-censustract-new.png" /></p>
+<p><img alt="Census Tract option is checked" src="https://s3.amazonaws.com/libapps/accounts/112972/images/2-geoglevel-censustract-new.png" /></p>
 
-<p>Click on the green plus sign next to Census Tract (or whatever geographic level you will be using). This will add that level to the Selected Geographic Level Filters area at the top of the page. Note that you <em>can</em> select as many units as you want, but this may add a layer of confusion to your process. Let's stick to Census Tract.</p>
+<p>Click on the green plus sign next to Census Tract. This will add that level to the Selected Geographic Level Filters area at the top of the page. Note that you <em>can</em> select as many units as you want, but this may add a layer of confusion to your process. Let's stick to Census Tract.</p>
 	
 <p>Click <strong>Submit</strong> at the bottom of the window.</p>
 
 <p>A bunch of rows will now appear on the page. There are far too many to look through with such a limited filter; let&#39;s filter further.</p>
 
-<p>Click on <strong>Years</strong>. If you only want to look at U.S. Census data, the Decennial Years column will be your only concern; U.S. Census data is collected every ten years. Some options will be greyed out, but you can still select them. The greyed-out options are years for which data is not available given the other filters you&#39;ve selected. For example, since we chosen Census Tracts as our geographic level, every decennial year prior to 1910 is grey. This is because Census Tracts were never used before 1910!</p>
+<p>Click on <strong>Years</strong>.</p>
 
-<p><img alt="Years options" src="https://s3.amazonaws.com/libapps/accounts/112972/images/3-selectyear-new.png" /></p>
+<p>If you only want to look at U.S. Census data, the Decennial Years column will be your only concern; U.S. Census data is collected every ten years. Some options will be greyed out, but you can still select them. The greyed-out options are years for which data is not available given the other filters you&#39;ve selected. For example, since we chosen Census Tracts as our geographic level, every decennial year prior to 1910 is grey. This is because Census Tracts were never used before 1910!</p>
+
+<p><img alt="Check boxes showing year options. 2010 is selected and there are options for 2000, 1990, 1989, etc. Years older than 1910 have a grey color" src="https://s3.amazonaws.com/libapps/accounts/112972/images/3-selectyear-new.png" /></p>
 
 <p>Select the year(s) you&#39;re interested in, and hit <strong>Submit</strong>. We&#39;ll use the most current data, which is from the 2010 Census.</p>
 
-<p>The rows under Select Data will update once more, but there are still a lot of records. Let&#39;s click on <strong>Topics</strong> to really narrow it down.</p>
+<p>The rows under Select Data will update once more, but there are still a lot of records.</p>
 
-<p>Find the topic(s) you wish to map in the list that pops up. In our experience, most UWM students are concerned with <em>Population</em> data, but there are other categories that can be accessed using the tabs on the left. Again, options may be greyed out if data for those topics cannot be obtained given the other filters you have selected. We&#39;re interested in data about the black population in Milwaukee County, so we will select <strong>race</strong> as our topic.</p>
+<p>Click on <strong>Topics</strong> to narrow results even further.</p>
 
-<p><img alt="Topics options" src="https://s3.amazonaws.com/libapps/accounts/112972/images/4-selecttopic-new.png" /></p>
+<p>Find the topic(s) you wish to map in the list that pops up. Many UWM students are concerned with <em>Population</em> data, but there are other categories that can be accessed using the tabs on the left. Again, options may be greyed out if data for those topics cannot be obtained given the other filters you have selected.</p>
+
+<p>We&#39;re interested in data about the black population in Milwaukee County, so we will select <strong>race</strong> as our topic.</p>
+
+<p><img alt="Showing the topics available under Race, Ethnicity, and Origins topic. 'Race' is selected." src="https://s3.amazonaws.com/libapps/accounts/112972/images/4-selecttopic-new.png" /></p>
 
 <p>The first plus sign next to Race is the Table Topic Filter; the second is the Breakdown Filter. You may click the green question mark next to each of these terms at the top of the table to learn more. For the purposes of this tutorial, we will use Table Topic Filter. Click on the first plus sign and <strong>Submit</strong> once more.</p>
 
