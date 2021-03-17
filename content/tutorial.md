@@ -33,33 +33,19 @@ nav_order: 4.5
 	<li>and narrow your data down to a <a href="#specificpart">specific part</a> of the United States.</li>
 </ul>
 
-<p><strong>This tutorial was written with beginners in mind.</strong> If you are familiar with GIS, consider reading the section titled &quot;<a href="#concise">Concise Instructions for People With GIS Experience</a>&quot; at the bottom of this document.</p>
+<p><strong>This tutorial was written with beginners in mind.</strong></p>
 
 <h2>Introduction, Part II</h2>
 
-<p>One of the most common geospatial data requests we receive at the AGSL involves demographic data from the US Census or American Community Survey. If your research involves racial and ethnic groups, housing, language, employment, education, wealth distribution, or any of the other metrics the U.S. Census Bureau collects, chances are you would like to have this data too. There are tools for downloading tabular data, but many want to use the data in GIS software.
+<p>If your research involves racial and ethnic groups, housing, language, employment, education, wealth distribution, or any of the other metrics the U.S. Census Bureau collects, chances are you would like to have this data too.
 
 <p>The <a href="https://nhgis.org/" target="_blank">National Historical Geographical Information System (NHGIS)</a>, a service provided by the Minnesota Population Center at the the University of Minnesota, is one of the best ways to get this data. If you&#39;re learning about GIS at UWM, you likely want a shapefile that you can use for analysis in ArcGIS or QGIS. Data from NHGIS can also be adapted for web maps, interactive applications, and cartography.</p>
 
 <p>Another advantage of NHGIS: It can be used to obtain data from as far back as the first U.S. Census in 1790. Not only does it provide the raw numbers, but you can also obtain shapefiles containing historical Census boundaries.</p>
 
-<p>NHGIS can be intimidating to navigate. While the team behind it has done an excellent job balancing usability and comprehensiveness, demographic data is by nature multifaceted and complex. Once you get used to it, however, you will undoubtedly end up relying on NHGIS a lot for your research. It is absolutely worth learning to use.</p>
+<p>NHGIS can be intimidating to navigate. While the team behind it has done an excellent job balancing usability and comprehensiveness, demographic data is by nature multifaceted and complex.</p>
 
-<p>The end result of this tutorial will be a map of Milwaukee County showing the percentage of Black residents in each Census Tract using the most current data. This will take less than one hour to accomplish. The process for examining other locations, years, variables, and enumeration units will not be much different. Feel free to follow along by using the same data as our examples, or other data of your choosing. We will use ArcMap to work with the data we obtain.</p>
-
-<p>A few other notes:</p>
-
-<ul>
-	<li>We have already mentioned that NHGIS is great for obtaining U.S. Census data. Data is also available from a <a href="https://nhgis.org/user-resources/data-availability" target="_blank">variety of other U.S. surveys</a>, so be sure to note any that might be useful to you.</li>
-	<li>You may use the data you obtain with NHGIS in a report or publication, provided you <a href="https://nhgis.org/research/citation" target="_blank">include proper citation</a>.</li>
-	<li>NHGIS is an incredibly powerful tool. While we can provide an in-depth look at how to obtain and utilize basic data, you are encouraged to browse the NHGIS website to learn about more advanced functionality once you&#39;re comfortable.
-	</li>
-	<li>You may not use NHGIS data for any malicious purpose. It&#39;s part of their terms. Use it to develop your skills, to better understand the world around you, to help others, and/or to spread knowledge!</li>
-</ul>
-
-<p>If you require further assistance, please e-mail the AGSL GIS data team at <a href="mailto:gisdata@uwm.edu">gisdata@uwm.edu</a></p>
-
-<p>If this is your first time working with Census products, you might want a bit more background information first! Pleaes check out our <a href="https://guides.library.uwm.edu/census" target="_blank">Census LibGuide</a>.</p>
+<p>The goal of this tutorial will be to create a map of Milwaukee County showing the percentage of Black residents in each Census Tract using the most current data. The process for examining other locations, years, variables, and enumeration units will not be much different. Feel free to follow along by using the same data as our examples, or other data of your choosing. We will use ArcGIS Pro to work with the data we obtain.</p>
 
 <p>Happy mapping!</p>
 
