@@ -101,11 +101,11 @@ nav_order: 4.5
 
 <p>Many researchers want to map race data. If we click on the <strong>Popularity</strong> column heading, we can see that one row is much more popular than the others.</p>
 
-<p><img alt="Sorting the results by popularity" src="https://s3.amazonaws.com/libapps/accounts/112972/images/5-tablesort-new.png" /></p>
+<p><img alt="Sorting the results by popularity and showing that the most popular topics are Race, Hispanic or Latino Origin by Race, and variations on those topics." src="https://s3.amazonaws.com/libapps/accounts/112972/images/5-tablesort-new.png" /></p>
 
 <p>It is likely this first row is the data we want. Confirm it by seeing what information the data table contains. Click on the table name, <strong>P3. Race</strong>, to open a window detailing the contents of this dataset.</p>
 
-<p><img alt="Data table details" src="https://s3.amazonaws.com/libapps/accounts/112972/images/6-datatabledetails-new.png" /></p>
+<p><img alt="Showing the details of a particular topic from the table. In this case, a lot of information about the table including variables and dataset metadata, information on available breakdowns and geographic levels are also shown." src="https://s3.amazonaws.com/libapps/accounts/112972/images/6-datatabledetails-new.png" /></p>
 
 <p>Don&#39;t worry if most of this doesn&#39;t make sense to you. At the very least, we can determine from the Universe field that this table measures the entire population of a geographic level. &quot;Census Tract&quot; is one of those available geographic levels. Finally, it looks like &quot;Black or African American alone&quot; is one of the variables available to us. In other words, this dataset contains the total population of people who identify as Black or African American in each Census Tract. That is <em>exactly</em> what we&#39;re looking for.</p>
 
@@ -115,11 +115,11 @@ nav_order: 4.5
 
 <p>In the same area where you selected which dataset you want, click on the <strong>GIS FILES</strong> tab. If you&#39;ve provided adequate Geographic Levels and Years filters, the list of results will be mercifully short. In fact, our query only returns two boundary files!</p>
 
-<p><img alt="Boundary files results" src="https://s3.amazonaws.com/libapps/accounts/112972/images/7-boundaryfiles-new.png" /></p>
+<p><img alt="Boundary files results showing only two options listed in the results tables." src="https://s3.amazonaws.com/libapps/accounts/112972/images/7-boundaryfiles-new.png" /></p>
 
 <p>The boundary file that we are interested in is the <strong>2010 TIGER/Line +</strong>. This boundary file contains all Census Tract boundaries used in the 2010 U.S. Census. We&#39;ll add it to our Data Cart by clicking on the green plus sign. The cart will update accordingly.</p>
 
-<p><img alt="Data cart" src="https://s3.amazonaws.com/libapps/accounts/112972/images/8-datacart-new.png" /></p>
+<p><img alt="Data cart information showing updates since we have selected a source table and a GIS file." src="https://s3.amazonaws.com/libapps/accounts/112972/images/8-datacart-new.png" /></p>
 
 <p>NHGIS will provide a data table and boundary shapefile, and it will be our job to join them. Our data will include every Census Tract in the U.S., but we are only concerned with Milwaukee County &mdash; so we will need to trim the data too. All of this is easy, and if you have some GIS experience you may already know how to do it on your own.</p>
 
@@ -127,7 +127,7 @@ nav_order: 4.5
 
 <p>Note that the status of your new extract is <em>queued</em>. It takes a little time for NHGIS to process a simple dataset like ours; more complicated extracts will, of course, take longer. Take a break for a few minutes. By default, NHGIS will send you an e-mail once your data is ready for download. Refresh the page until your extract&#39;s status is <em>completed</em>.</p>
 
-<p><img alt="Data cart" src="https://s3.amazonaws.com/libapps/accounts/112972/images/downloadready.png" /></p>
+<p><img alt="extracts view showing that the data is ready to download and is no longer pending." src="https://s3.amazonaws.com/libapps/accounts/112972/images/downloadready.png" /></p>
 
 <p>You will need to download the <strong>table</strong> and <strong>gis</strong> as .ZIP files separately. Do so, and then extract them once they have finished. (If you&#39;re unable to extract your data from the .ZIP file, try <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.) Note that boundary shapefiles come in the form of a .ZIP file within another .ZIP file, and you&#39;ll need to extract both.</p>
 
@@ -145,35 +145,35 @@ nav_order: 4.5
 
 <p>Our variable of interest, &quot;Black or African American alone,&quot; is associated with the column heading <strong>H7X003</strong>. Because we want to map the Black population as a percentage of the <em>total</em> population in a Census Tract, we should also know that <strong>H7X001</strong> is the column for the total population in a tract. Take the time to note all of the columns that you will want to use.</p>
 
-<p>Keep both the boundary file and data table you downloaded somewhere on your computer where you&#39;ll be able to find it later.</p>
+<p>Keep both the boundary file and data table you downloaded somewhere on your computer where you&#39;ll be able to find it later. Your downloads folder or desktop are good options.</p>
 
-<p>It&#39;s time to open ArcGIS Pro. Note that what we&#39;ll be doing can be done in pretty much any GIS software, such as the free <a href="http://qgis.org/en/site/">QGIS</a>. Most UWM students will develop their GIS skills with ArcGIS, and it is available on all public computers across campus that are running Windows. This includes the computers on the first floor of the library.</p>
+<p>It&#39;s time to open ArcGIS Pro. Note that what we&#39;ll be doing can be done in pretty much any GIS software, such as the free <a href="http://qgis.org/en/site/">QGIS</a>.</p>
 
 <p>We&#39;ll work on a new, blank map template. Assign the project any name you want. Navigate to the <strong>Map</strong> tab. Click the <strong>Add Data</strong> button and select <strong>Data</strong>  to add both the .CSV table and shapefile you downloaded from NHGIS to your document. If that sentence made no sense to you, see the ArcGIS Pro documentation: <a href="https://pro.arcgis.com/en/pro-app/help/mapping/layer-properties/add-layers-to-a-map.htm#ESRI_SECTION1_FABB01A75AFE4A1FB0BEC3D7CE74E3C5" target="_blank">Adding layers to a map</a>.</p>
 
-<p>If your computer is old, this next part will require some patience. Your boundary shapefile contains boundaries from <em>the entire United States</em>, so ArcGIS may take a little while to render it all. If your computer is having difficulty processing so much data, you can temporarily pause map drawing on the bottom left corner of the map view.</p>
+<p>This next part will require some patience. Your boundary shapefile contains boundaries from <em>the entire United States</em>, so ArcGIS may take a little while to render it all. If your computer is having difficulty processing so much data, you can temporarily pause map drawing on the bottom left corner of the map view.</p>
 
-<p><img alt="Starting ArcMap" src="https://s3.amazonaws.com/libapps/accounts/112972/images/10-startingarcmap-new.png" /></p>
+<p><img alt="Starting ArcGIS Pro and showing data added to the map view" src="https://s3.amazonaws.com/libapps/accounts/112972/images/10-startingarcmap-new.png" /></p>
 
 <p>We need to associate the data in the .CSV data table with the boundaries in our shapefile. This will be done by <em>joining</em> the tables. In GIS, the term <em>join</em> has a very specific meaning. In our case, it involves finding a column that both our .CSV data table and our shapefile&#39;s attribute table have in common, and merging the two into one big table.</p>
 
-<p>The intricacies of joins/relates in GIS are beyond the scope of this document. If you want to learn more &mdash; and as a GIS analyst you really must! &mdash; check out the ArcGIS documentation: <a href="https://pro.arcgis.com/en/pro-app/help/data/tables/joins-and-relates.htm" target="_blank">About joining and relating tables</a>.</p>
+<p>If you would like a refresher on joins, check out the ArcGIS documentation: <a href="https://pro.arcgis.com/en/pro-app/help/data/tables/joins-and-relates.htm" target="_blank">About joining and relating tables</a>.</p>
 
 <p>If you have not done this sort of thing in the past, right click on one of the file names in the left column &mdash; in our example, <strong>US_tract_2010</strong> and <strong>nhgis0017_ds172_2010_tract.csv</strong> &mdash; and open the (attribute) table. Thoroughly examining the table of any data you download is good practice. Do you see which field we&#39;re going to use to join the tables? If it&#39;s not immediately obvious, you&#39;re thinking about it too much. Look at the names of all the columns!</p>
 
-<p><img alt="Table view" src="https://s3.amazonaws.com/libapps/accounts/112972/images/11-tableview-new.png" /></p>
+<p><img alt="Table view showing the column names of the tabular data along with the first couple dozen rows of data." src="https://s3.amazonaws.com/libapps/accounts/112972/images/11-tableview-new.png" /></p>
 
 <p>NHGIS very conveniently includes a GISJOIN column in all of its data. In other words, they&#39;ve done a big part of the hard work for us! Right-click on the shapefile name (for us, <strong>US_tract_2010</strong>), hover over <strong>Joins and Relates</strong>, and click on <strong>Add Join</strong>.</p>
 
 <p>For the <strong>Input Table</strong> field US_Tract_2010 should be selected. If it is not, you can use the drop-down menu to add it manually. Next set <strong>Input Join Field</strong> to GISJOIN using the drop-down menu. The <strong>Join Table</strong> drop-down should already have your data table selected, but if not, do that. Finally, the last field, <strong>Join Table Field</strong> asks which field you&#39;re going to base the join on &mdash; again, that would be GISJOIN. Your window should look something like this:</p>
 
-<p><img alt="Join dialog" src="https://s3.amazonaws.com/libapps/accounts/112972/images/12-joindialog-new.png" /></p>
+<p><img alt="Join dialog showing the spatial layer 'US_tract_2010' as 'input table', GISJOIN selected as both the input join field and join table field, and the join table pointing to the CSV tabular data" src="https://s3.amazonaws.com/libapps/accounts/112972/images/12-joindialog-new.png" /></p>
 
-<p>It&#39;s generally a good idea to <strong>Validate Join</strong> and make sure everything matches up as it should. Since there&#39;s so much data here, your computer may struggle to get through validating every field. Give it a go if you&#39;d like some peace of mind, and then click <strong>OK</strong>.</p>
+<p>It&#39;s a good idea to <strong>Validate Join</strong> and make sure everything matches up as it should. Since there&#39;s so much data here, your computer may struggle to get through validating every field. Give it a go if you&#39;d like some peace of mind, and then click <strong>OK</strong>.</p>
 
 <p>Open the attribute table for your boundary shapefile once more. Scroll all the way to the right. Do these column names look familiar? They should be the same ones you examined in the codebook earlier. Congratulations &mdash; all of your data is now in one convenient (and, frankly, huge) shapefile!</p>
 
-<p><img alt="Attribute table after the join" src="https://s3.amazonaws.com/libapps/accounts/112972/images/13-joinedtable-new.png" /></p>
+<p><img alt="Attribute table after the join, showing the existing columns from the shapefile with new columns from the joined tabular data." src="https://s3.amazonaws.com/libapps/accounts/112972/images/13-joinedtable-new.png" /></p>
 
 <p>If you want to make a map of the entire United States, you&#39;re pretty much ready to go. If not, we still have some work to do. Regardless, take some time to appreciate the fact that you can now, with very little effort, make a detailed thematic map of the <em>whole country</em>. And you could do it with <em>anything in the U.S. Census</em>. Hopefully you feel that all of the effort you put into getting here was worth it!</p>
 
@@ -210,6 +210,8 @@ nav_order: 4.5
 <p>As you may notice, however, the rest of the U.S. is still present. Indeed, selecting alone does not isolate your data. Right-click on your shapefile name in the Table of Contents on the left, hover over <strong>Selection</strong>, and click on <strong>Make Layer From Selected Features</strong>. <em>Remember this option</em> &mdash; it will save you a lot of time and energy throughout your GIS career!</p>
 
 <p>You should have a new layer listed on your Table of Contents; it will be called something like &quot;US_tract_2010 selection.&quot; Go ahead and remove your original shapefile and data table (right click them and select <strong>Remove</strong>), since all of our data is now concentrated in this brand new layer. Zoom in a bit if necessary; you will notice that you have isolated your area of interest!</p>
+
+You could save this layer as it's own shapefile, or create new selections to repeat the process for the entire state or different counties.
 
 <p><img alt="Milwaukee County isolated in ArcMap" src="https://s3.amazonaws.com/libapps/accounts/112972/images/16-milwaukeeisolated-new.png" /></p>
 
