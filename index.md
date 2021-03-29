@@ -8,16 +8,18 @@ nav_order: 1
   
 ____
 
-This workshop will provide an introduction to the US Census and American Community Survey (ACS), discovery and access to data products, and using Census and ACS data in GIS. In addition to the prerequisites below, workshop participants should have at least a beginner level knowledge of GIS technology and be comfortable with downloading files, unzipping .zip archive files, and opening shapefiles in GIS software. If you are completely new to GIS, It is strongly recommended that you complete some self-paced training from a resource like LinkedIn Learning.
+This workshop will provide an introduction to the US Census and American Community Survey (ACS), discovery and access to data products, and using Census and ACS data in GIS. In addition to the prerequisites below, workshop participants should have at least a beginner level knowledge of GIS technology and be comfortable with downloading files, unzipping .zip archive files, and opening shapefiles in GIS software.
 
-- A computer with an internet connection, a second monitor or second device (laptop or tablet) is highly recommended.
+- A computer with an internet connection, a second monitor or second device to watch the zoom room while you follow along is recommended.
+
+- A webcam and microphone or headset. There are interactive componenets to the workshop.
 
 - Desktop GIS Software (ArcGIS Pro recommended, ArcMap or QGIS okay for those with GIS experience)
 
 - Set up an account at NHGIS.org
 {: .prereq}
 
-[Click here to go to the full setup instructions.](content/setup)
+[Click here to view the full setup instructions.](content/setup) **Please complete setup before the workshop so we can make the most of our limited timed together.**
 
 ### Presenter
 
@@ -56,7 +58,7 @@ University of Wisconsin-Milwaukee Libraries
 | 1:25 | Wrap-up (Discussion)
 
 
-_Actual schedule may vary depending on group needs_  
+_Actual schedule may vary depending on group needs_
 
 
 ### Workshop Slides
