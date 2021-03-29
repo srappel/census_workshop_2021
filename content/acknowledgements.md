@@ -17,6 +17,8 @@ Thank you to everyone involved in GIS Day planning including those who helped me
 
 Thank you to Evan and Phil for their great workshop at WAML 2020 and for sharing [this template](https://github.com/ubc-lib-geo/gis-workshop-waml-template). [Check out this website](https://ubc-lib-geo.github.io/gis-workshop-waml-template/) if you want to make one!
 
+A second shoutout to Evan and Phil for the idea to use [native-land.ca](https://native-land.ca/) for an impactful Land Acknowledgment during virtual workshops.
+
 This template uses [Just The Docs](https://pmarsceill.github.io/just-the-docs/) Jekyll theme.
 
 Heavily influenced and inspired by the [Stanford Geospatial Center](https://github.com/StanfordGeospatialCenter), which is one of the O.G. GitHub contributors for GIS workshops and tutorials.
