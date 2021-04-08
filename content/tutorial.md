@@ -37,15 +37,13 @@ nav_order: 4.5
 
 <h2>Introduction, Part II</h2>
 
-<p>If your research involves racial and ethnic groups, housing, language, employment, education, wealth distribution, or any of the other metrics the U.S. Census Bureau collects, chances are you would like to have this data too.
-
-<p>The <a href="https://nhgis.org/" target="_blank">National Historical Geographical Information System (NHGIS)</a>, a service provided by the Minnesota Population Center at the the University of Minnesota, is one of the best ways to get this data. If you&#39;re learning about GIS at UWM, you likely want a shapefile that you can use for analysis in ArcGIS or QGIS. Data from NHGIS can also be adapted for web maps, interactive applications, and cartography.</p>
+<p>The <a href="https://nhgis.org/" target="_blank">National Historical Geographical Information System (NHGIS)</a>, a service provided by the Minnesota Population Center at the the University of Minnesota, is one of the best ways to access data from the Census Bureau. You likely want a shapefile that you can use for analysis in ArcGIS or QGIS. Data from NHGIS can also be adapted for web maps, interactive applications, and cartography.</p>
 
 <p>Another advantage of NHGIS: It can be used to obtain data from as far back as the first U.S. Census in 1790. Not only does it provide the raw numbers, but you can also obtain shapefiles containing historical Census boundaries.</p>
 
-<p>NHGIS can be intimidating to navigate. While the team behind it has done an excellent job balancing usability and comprehensiveness, demographic data is by nature multifaceted and complex.</p>
+<p>NHGIS can be intimidating to navigate. While the team behind it has done an excellent job balancing usability and comprehensiveness, demographic data is multifaceted and complex.</p>
 
-<p>The goal of this tutorial will be to create a map of Milwaukee County showing the percentage of Black residents in each Census Tract using the most current data. The process for examining other locations, years, variables, and enumeration units will not be much different. Feel free to follow along by using the same data as our examples, or other data of your choosing. We will use ArcGIS Pro to work with the data we obtain.</p>
+<p>The goal of this tutorial will be to create a map of Milwaukee County (or some other county) showing the percentage of Black residents in each Census Tract using the most current data. The process for examining other locations, years, variables, and enumeration units will not be much different. Feel free to follow along by using the same data as our examples, or other data of your choosing. We will use ArcGIS Pro to work with the data we obtain.</p>
 
 <p>Happy mapping!</p>
 
@@ -79,15 +77,15 @@ nav_order: 4.5
 
 <p><img alt="Check boxes showing year options. 2010 is selected and there are options for 2000, 1990, 1989, etc. Years older than 1910 have a grey color" src="https://s3.amazonaws.com/libapps/accounts/112972/images/3-selectyear-new.png" /></p>
 
-<p>Select the year(s) you&#39;re interested in, and hit <strong>Submit</strong>. We&#39;ll use the most current data, which is from the 2010 Census.</p>
+<p>Select the year(s) you&#39;re interested in, and hit <strong>Submit</strong>. We&#39;ll use the most current decennial census data, which is from the 2010 Census.</p>
 
 <p>The rows under Select Data will update once more, but there are still a lot of records.</p>
 
 <p>Click on <strong>Topics</strong> to narrow results even further.</p>
 
-<p>Find the topic(s) you wish to map in the list that pops up. Many UWM students are concerned with <em>Population</em> data, but there are other categories that can be accessed using the tabs on the left. Again, options may be greyed out if data for those topics cannot be obtained given the other filters you have selected.</p>
+<p>Find the topic(s) you wish to map in the list that pops up. Many researchers are concerned with <em>Population</em> data, but there are other categories that can be accessed using the tabs on the left. Again, options may be greyed out if data for those topics cannot be obtained given the other filters you have selected.</p>
 
-<p>We&#39;re interested in data about the black population in Milwaukee County, so we will select <strong>race</strong> as our topic.</p>
+<p>We&#39;re interested in data about the Black population in Milwaukee County, so we will select <strong>race</strong> as our topic.</p>
 
 <p><img alt="Showing the topics available under Race, Ethnicity, and Origins topic. 'Race' is selected." src="https://s3.amazonaws.com/libapps/accounts/112972/images/4-selecttopic-new.png" /></p>
 
@@ -111,7 +109,7 @@ nav_order: 4.5
 
 <p>Close the Data Table Details window to return to the filter search results. Click on the green plus sign on the left to add this data to our Data Cart. You can select multiple datasets if you would like &mdash; this could be useful if, for instance, you are not entirely certain that you&#39;ve selected the right dataset.</p>
 
-<p>You may notice that we&#39;ve been using the term &quot;data table.&quot; That&#39;s because when you download data from NHGIS, it is delivered to you in the form of a table &mdash; the kind of thing you could open in, for instance, Microsoft Excel. It has no associated geographic coordinates, and it&#39;s definitely not a shapefile.</p>
+<p>You may notice that we&#39;ve been using the term &quot;data table.&quot; That&#39;s because when you download data from NHGIS, it is delivered to you in the form of a table &mdash; the kind of thing you could open in Microsoft Excel or Google Sheets. It has no associated geographic coordinates, and it&#39;s definitely not a shapefile.</p>
 
 <p>In the same area where you selected which dataset you want, click on the <strong>GIS FILES</strong> tab. If you&#39;ve provided adequate Geographic Levels and Years filters, the list of results will be mercifully short. In fact, our query only returns two boundary files!</p>
 
@@ -121,7 +119,7 @@ nav_order: 4.5
 
 <p><img alt="Data cart information showing updates since we have selected a source table and a GIS file." src="https://s3.amazonaws.com/libapps/accounts/112972/images/8-datacart-new.png" /></p>
 
-<p>NHGIS will provide a data table and boundary shapefile, and it will be our job to join them. Our data will include every Census Tract in the U.S., but we are only concerned with Milwaukee County &mdash; so we will need to trim the data too. All of this is easy, and if you have some GIS experience you may already know how to do it on your own.</p>
+<p>NHGIS will provide a data table and boundary shapefile, and it will be our job to join them. Our data will include every Census Tract in the U.S., but we are only concerned with Milwaukee County &mdash; so we will need to trim the data too.</p>
 
 <p>But we&#39;re not going to worry about any of that until we actually have our data. Click <strong>Continue</strong> in the Data Cart, then click on it again. Keep all of the options as they are by default. You may want to add a brief description of your project, so you can find this dataset later to modify or re-download. Click on <strong>Submit</strong> to be brought to your Extracts History.</p>
 
@@ -131,7 +129,9 @@ nav_order: 4.5
 
 <p>You will need to download the <strong>table</strong> and <strong>gis</strong> as .ZIP files separately. Do so, and then extract them once they have finished. (If you&#39;re unable to extract your data from the .ZIP file, try <a href="http://www.7-zip.org/" target="_blank">7-Zip</a>.) Note that boundary shapefiles come in the form of a .ZIP file within another .ZIP file, and you&#39;ll need to extract both.</p>
 
-<p>All of your data is now ready for use.</p>
+<p>If some time has passed and you still haven't received an e-mail to download your data, you can download the data from the AGSL's sharepoint site:
+
+<p><a href="https://panthers.sharepoint.com/:f:/s/UWMLibraries/AGSL/Ehi5GkIs3atLtJScxZQAMewBWeLPn_ToOIC60cZ-uv1Y3Q?e=6gRrgY">Click here to download sample data.</a> (0.5 GB, compressed)
 
 <h2 id="joining">Understanding Data &amp; Joining Tables in ArcGIS</h2>
 
@@ -143,13 +143,17 @@ nav_order: 4.5
 
 <p><img alt="Inside our codebook" src="https://s3.amazonaws.com/libapps/accounts/113117/images/9-codebook.png" /></p>
 
-<p>Our variable of interest, &quot;Black or African American alone,&quot; is associated with the column heading <strong>H7X003</strong>. Because we want to map the Black population as a percentage of the <em>total</em> population in a Census Tract, we should also know that <strong>H7X001</strong> is the column for the total population in a tract. Take the time to note all of the columns that you will want to use.</p>
+<p>Our variable of interest, &quot;Black or African American alone,&quot; is associated with the column heading <strong>H7X003</strong>. Because we want to map the Black population as a percentage of the <em>total</em> population in a Census Tract, we should also know that <strong>H7X001</strong> is the column for the total population in a tract.</p>
+
+<p><em><strong>Hint:</strong> Remember to check the Universe!</em></p>
+
+<p>Take the time to note all of the columns that you will want to use.</p>
 
 <p>Keep both the boundary file and data table you downloaded somewhere on your computer where you&#39;ll be able to find it later. Your downloads folder or desktop are good options.</p>
 
 <p>It&#39;s time to open ArcGIS Pro. Note that what we&#39;ll be doing can be done in pretty much any GIS software, such as the free <a href="http://qgis.org/en/site/">QGIS</a>.</p>
 
-<p>We&#39;ll work on a new, blank map template. Assign the project any name you want. Navigate to the <strong>Map</strong> tab. Click the <strong>Add Data</strong> button and select <strong>Data</strong>  to add both the .CSV table and shapefile you downloaded from NHGIS to your document. If that sentence made no sense to you, see the ArcGIS Pro documentation: <a href="https://pro.arcgis.com/en/pro-app/help/mapping/layer-properties/add-layers-to-a-map.htm#ESRI_SECTION1_FABB01A75AFE4A1FB0BEC3D7CE74E3C5" target="_blank">Adding layers to a map</a>.</p>
+<p>We&#39;ll work on a new, blank map template. Assign the project any name you want. Navigate to the <strong>Map</strong> tab. Click the <strong>Add Data</strong> button and select <strong>Data</strong>  to add both the .CSV table and shapefile you downloaded from NHGIS to your document.</p>
 
 <p>This next part will require some patience. Your boundary shapefile contains boundaries from <em>the entire United States</em>, so ArcGIS may take a little while to render it all. If your computer is having difficulty processing so much data, you can temporarily pause map drawing on the bottom left corner of the map view.</p>
 
@@ -159,7 +163,7 @@ nav_order: 4.5
 
 <p>If you would like a refresher on joins, check out the ArcGIS documentation: <a href="https://pro.arcgis.com/en/pro-app/help/data/tables/joins-and-relates.htm" target="_blank">About joining and relating tables</a>.</p>
 
-<p>If you have not done this sort of thing in the past, right click on one of the file names in the left column &mdash; in our example, <strong>US_tract_2010</strong> and <strong>nhgis0017_ds172_2010_tract.csv</strong> &mdash; and open the (attribute) table. Thoroughly examining the table of any data you download is good practice. Do you see which field we&#39;re going to use to join the tables? If it&#39;s not immediately obvious, you&#39;re thinking about it too much. Look at the names of all the columns!</p>
+<p>Right click on one of the file names in the contents pane &mdash; in our example, <strong>US_tract_2010</strong> and <strong>nhgis0017_ds172_2010_tract.csv</strong> &mdash; and open the (attribute) table. Thoroughly examining the table of any data you download is good practice. Do you see which field we&#39;re going to use to join the tables?</p>
 
 <p><img alt="Table view showing the column names of the tabular data along with the first couple dozen rows of data." src="https://s3.amazonaws.com/libapps/accounts/112972/images/11-tableview-new.png" /></p>
 
@@ -168,8 +172,6 @@ nav_order: 4.5
 <p>For the <strong>Input Table</strong> field US_Tract_2010 should be selected. If it is not, you can use the drop-down menu to add it manually. Next set <strong>Input Join Field</strong> to GISJOIN using the drop-down menu. The <strong>Join Table</strong> drop-down should already have your data table selected, but if not, do that. Finally, the last field, <strong>Join Table Field</strong> asks which field you&#39;re going to base the join on &mdash; again, that would be GISJOIN. Your window should look something like this:</p>
 
 <p><img alt="Join dialog showing the spatial layer 'US_tract_2010' as 'input table', GISJOIN selected as both the input join field and join table field, and the join table pointing to the CSV tabular data" src="https://s3.amazonaws.com/libapps/accounts/112972/images/12-joindialog-new.png" /></p>
-
-<p>It&#39;s a good idea to <strong>Validate Join</strong> and make sure everything matches up as it should. Since there&#39;s so much data here, your computer may struggle to get through validating every field. Give it a go if you&#39;d like some peace of mind, and then click <strong>OK</strong>.</p>
 
 <p>Open the attribute table for your boundary shapefile once more. Scroll all the way to the right. Do these column names look familiar? They should be the same ones you examined in the codebook earlier. Congratulations &mdash; all of your data is now in one convenient (and, frankly, huge) shapefile!</p>
 
