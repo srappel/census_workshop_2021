@@ -63,5 +63,4 @@ _Actual schedule may vary depending on group needs_
 
 ### Workshop Slides
 
-<iframe src="https://docs.google.com/presentation/d/172igvCbB1KsYAMzWgjY75MnsAFiRoNjY9fT064XOAOM/edit?usp=sharing" frameborder="0" width="720" height="480"
-allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQCNnv2e423YIixlGSljbE3-wj2ix7h9OLiX69G5iIH6fBjW22ddpVcW283P9peM1nnNCFYS6eJphkj/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
