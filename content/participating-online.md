@@ -26,12 +26,3 @@ The _Chat_ window is a good place to report problems with your audio connection.
 
 ## Share your screen
 In some cases instructors may invite you to share your screen. Raise your hand to indicate that you're ready to share. When called upon click _Share screen_, select a window to display, and click _Share_.
-
-## Contribute to the Whiteboard
-The _Whiteboard_ is a collaborative space that everyone can annotate with drawings and text. When the whiteboard is shared click _View options_ and select _Annotate_.
-
-![Menu with Annotate option](img/open_annotate_toolbar.png)
-
-This opens the annotation toolbar. Drawings and text you add to the screen will be visible to everyone in the session or breakout room.
-
-![The annotation toolbar](img/annotate_toolbar.png)
