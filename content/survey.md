@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Participating Online
-nav_order: 3.5
+title: Survey
+nav_order: 5
 ---
 # Get to know eachother
 Please complete the following survey to help us learn more about each other. 

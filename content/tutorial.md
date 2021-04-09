@@ -1,7 +1,7 @@
 ---
 layout: default
 title: NHGIS Tutorial
-nav_order: 4.5
+nav_order: 6
 ---
 
 <title></title>
