@@ -8,6 +8,13 @@ nav_order: 1
   
 ____
 
+## Zoom info:
+Join Zoom Meeting
+[https://uwm-edu.zoom.us/j/86325995947?pwd=WUtTNWhtMGxaTzFRS3ZtVWhkai9FZz09](https://uwm-edu.zoom.us/j/86325995947?pwd=WUtTNWhtMGxaTzFRS3ZtVWhkai9FZz09)
+Meeting ID: 863 2599 5947
+Passcode: 401917
+
+
 This workshop will provide an introduction to the US Census and American Community Survey (ACS), discovery and access to data products, and using Census and ACS data in GIS. In addition to the prerequisites below, workshop participants should have at least a beginner level knowledge of GIS technology and be comfortable with downloading files, unzipping .zip archive files, and opening shapefiles in GIS software.
 
 - A computer with an internet connection, a second monitor or second device to watch the zoom room while you follow along is recommended.
