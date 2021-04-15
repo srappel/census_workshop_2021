@@ -21,8 +21,6 @@ This workshop will provide an introduction to the US Census and American Communi
 
 [Click here to view the full setup instructions.](content/setup) **Please complete setup before the workshop so we can make the most of our limited timed together.**
 
-[Click here to join the UWM GIS Day Slack Channel](https://join.slack.com/t/uwmgisday/shared_invite/zt-otw6ntfa-n9rh45pFOAQo1S6iZiMftg) (For conversation and questions after the workshop.)
-
 ### Presenter
 
 <img src='https://uwm.edu/libraries/wp-content/uploads/sites/59/2018/12/appel.jpg' width='250' alt='Photo of the presenter, Stephen Appel'>
